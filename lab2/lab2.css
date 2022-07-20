@@ -1,0 +1,43 @@
+h3{
+     color: #FFFFA8; 
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-color: gray;
+}
+h4{
+    color: #FFFFA8;
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-color: gray;
+    text-align: center;
+}
+body{
+    background: url(silverware.jpg);
+}
+.new{
+    background-color: yellow;
+    opacity: 0.70;
+    margin-left: 50px;
+    margin-right: 50px;
+    opacity: 0.70;
+}
+.try{
+    background-color:yellow;
+    opacity: 0.70;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+#try{
+    background-color: yellow;
+    opacity: 0.70;
+    margin-left: 60px;
+    margin-right: 60px;
+   
+}
+a[ href="http://www.google.com/search?q=lemon+meringue+pie+recipe&start=10 "]{
+    background-color: red;
+}
+    
+
+
