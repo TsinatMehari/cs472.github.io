@@ -1,0 +1,13 @@
+body{
+    background-color: aqua;
+}
+
+div{
+    color:blue;
+}
+strong{
+    color: red;
+}
+#pic{
+    display: inline-flex;
+}
