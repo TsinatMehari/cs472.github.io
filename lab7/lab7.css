@@ -1,0 +1,32 @@
+body {
+    align-self: center;
+    margin-left: 20%;
+    margin-right: 20%;
+  
+  }
+  .myDiv {
+    border: 5px outset blue;
+  }
+  #better{
+    display: inline-flex;
+  }
+  h1{
+    text-align: center;
+    color:blue;
+  
+  }
+  #myInput{
+    border-color:blue;
+  }
+  
+  div {
+    margin: 0.5em;
+  }
+  body, input, button {
+    font-family: "Century Gothic",sans-serif;
+    font-size: 20pt;
+  }
+  button{
+    background-color:grey;
+    
+  }
