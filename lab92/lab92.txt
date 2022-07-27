@@ -1,0 +1,31 @@
+
+1..What is the differencebetween the following 2 statements?
+SetTimeout(booyah, 2000);
+//Calles the function after the timer goes off after 2 seconds.
+SetTimeout(booyah(), 2000);
+//calles the function booyah immediately rather than waiting for 2 seconds
+2..What do the following 2 alerts display (answer without running the code)?
+            var myfunc = function(a, x) {
+                return a * x;
+            };
+            var x = myfunc(2, 3);
+            var y = myfunc;         
+            alert(x);
+            alert(y(2,3)); 
+Both of them display 6
+
+3..Write functions booyah1 and booyah2 so that in both cases below, an alert box comes up after 2 seconds that says “BOOYAH!”
+SetTimeout(booyah, 2000);
+                    function booyah1() {
+                        alert("BOOYAH");
+                    } 
+SetTimeout(booyah(), 2000);
+
+                function booyah2(){
+                    setTimeout(booyah1,2000);
+                }
+4..What is "Unobtrusive Javascript"? What is the practical application of Unobtrusive Javascript (and the reasons for using it)?
+Unobtrusive JavaScript is the way of writing JavaScript language in which we properly separate Document Content(html) ,presentation(css)
+and behavior(javaScript)thus allowing us to make a clear distinction between them.
+The reasons for using: it separates your concerns, keeps your code clean, and allows you to work on the JavaScript without touching either HTML or CSS.
+and also it makes our code easy to update and to debug.
